@@ -4,7 +4,7 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Esta é uma aplicação web **full-stack** construída do zero para demonstrar minhas habilidades em desenvolvimento frontend e backend. A aplicação é totalmente dinâmica, com projetos carregados a partir de um banco de dados e um formulário de contato funcional.
 
-![Screenshot do Portfólio](https://i.imgur.com/screenshot-placeholder.png) ---
+![Screenshot do Portfólio]([https://i.imgur.com/screenshot-placeholder.png](https://imgur.com/72QsLNF)) ---
 
 ## 🚀 Principais Funcionalidades
 

@@ -4,7 +4,9 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Esta é uma aplicação web **full-stack** construída do zero para demonstrar minhas habilidades em desenvolvimento frontend e backend. A aplicação é totalmente dinâmica, com projetos carregados a partir de um banco de dados e um formulário de contato funcional.
 
-![Screenshot do Portfólio]([https://i.imgur.com/screenshot-placeholder.png](https://imgur.com/72QsLNF)) ---
+![Screenshot do Portfólio](https://i.imgur.com/72QsLNF.png)
+
+---
 
 ## 🚀 Principais Funcionalidades
 
@@ -57,7 +59,7 @@ Siga os passos abaixo para executar este projeto em sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/alanfernandoifpe/portfolio-fullstack.git](https://github.com/alanfernandoifpe/portfolio-fullstack.git) # SUBSTITUA PELA URL DO SEU REPOSITÓRIO
+    git clone [https://github.com/alanfernandoifpe/portfolio-fullstack.git](https://github.com/alanfernandoifpe/portfolio-fullstack.git)
     ```
 
 2.  **Navegue até a pasta do projeto:**
@@ -69,32 +71,3 @@ Siga os passos abaixo para executar este projeto em sua máquina.
     ```bash
     cd backend
     npm install
-    ```
-
-4.  **Configure as variáveis de ambiente:**
-    -   Ainda na pasta `backend`, crie um arquivo chamado `.env`.
-    -   Dentro dele, adicione a seguinte linha:
-        ```
-        PORT=3000
-        ```
-
-5.  **Inicie o servidor backend:**
-    ```bash
-    npm run dev
-    ```
-    - O servidor estará rodando em `http://localhost:3000`.
-
-6.  **Abra o frontend:**
-    -   Navegue até a pasta `frontend` e abra o arquivo `index.html` diretamente no seu navegador.
-
----
-
-## 📬 Contato
-
-**Alan Fernando**
-
--   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alanfernandocosta/) -   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alanfernandoifpe) ---
-
-<p align="center">
-  Desenvolvido com ❤️ e muito código!
-</p>

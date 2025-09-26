@@ -1,0 +1,128 @@
+/* style.css FINAL */
+
+/* 1. DEFINIÇÃO DE CORES E FONTES */
+:root {
+    --cor-fundo: #f8f9fa;
+    --cor-primaria: #0d1b2a;
+    --cor-secundaria: #1b263b;
+    --cor-texto: #e0e1dd;
+    --cor-destaque: #00b4d8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor-fundo);
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* 2. ESTILO DA SEÇÃO HERO */
+#hero {
+    background-color: var(--cor-fundo);
+    color: #333;
+    min-height: 80vh;
+    padding: 60px 0;
+}
+
+#hero h1 {
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid var(--cor-destaque);
+}
+
+/* 3. ESTILO DOS CARDS DE PROJETO */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: var(--cor-primaria);
+}
+
+/* 4. ESTILOS GERAIS E SEÇÕES */
+.navbar {
+    background-color: var(--cor-secundaria) !important;
+}
+
+#projetos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contato {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+}
+
+#contato h2 {
+    color: white;
+}
+
+footer {
+    background-color: var(--cor-primaria) !important;
+}
+
+.btn-primary {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.btn-primary:hover {
+    background-color: #009cbf;
+    border-color: #009cbf;
+}
+
+/* 5. CORREÇÃO DE LEGIBILIDADE NO FORMULÁRIO */
+#contato h2,
+#contato .form-label {
+    color: #333;
+}
+
+/* 6. ESTILO DA SEÇÃO DE HABILIDADES */
+.habilidade-item {
+    transition: transform 0.3s ease;
+}
+.habilidade-item i {
+    color: var(--cor-secundaria);
+}
+.habilidade-item:hover {
+    transform: scale(1.1);
+}
+
+/* 7. POLIMENTO FINAL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 8. SEÇÃO SOBRE MIM (NOVA) */
+#sobre {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Polimento no Footer (NOVO) */
+footer a {
+    transition: opacity 0.3s ease;
+}
+footer a:hover {
+    opacity: 0.8;
+}

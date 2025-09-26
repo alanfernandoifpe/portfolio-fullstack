@@ -1,0 +1,13 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências e arquivos sensíveis do Backend
+backend/node_modules
+backend/.env
+backend/portfolio.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
